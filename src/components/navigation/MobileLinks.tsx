@@ -1,3 +1,4 @@
+import React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { LinkType } from "./constants";
 
@@ -26,7 +27,7 @@ export const MobileLinks = ({
           {links.map((l) => {
             return (
               <div key={l.title} className="space-y-1.5">
-                <span className="text-md block font-semibold text-zinc-950">{l.title}</span>
+                <span className="text-md block font-semibold">{l.title}</span>
                 {l.sublinks.map((sl) => (
                   <a
                     className="text-md block text-zinc-600"

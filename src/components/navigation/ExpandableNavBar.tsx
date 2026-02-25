@@ -1,12 +1,11 @@
-"use client";
-
 import React, { ReactNode, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { FiMenu } from "react-icons/fi";
-import { Button } from "./shared/Button";
+import { Logo } from "./Logo";
 import { DesktopLinks } from "./DesktopLinks";
 import { MobileLinks } from "./MobileLinks";
 import { Announcement } from "./Announcement";
+import { Button } from "../shared/Button";
 
 type LinkType = {
   title: string;
@@ -28,7 +27,7 @@ export const ExpandableNavBar = ({
     const link = links.find((l) => l.title === hovered);
 
     return link ? link.sublinks : [];
-  }, [hovered, links]);
+  }, [hovered]);
 
   return (
     <>
@@ -40,7 +39,7 @@ export const ExpandableNavBar = ({
         >
           <div className="flex items-start justify-between">
             <div className="flex items-start">
-              <h1 className="text-xl font-bold text-indigo-600">MyApp</h1>
+              <Logo />
               <DesktopLinks
                 links={links}
                 setHovered={setHovered}
@@ -53,7 +52,7 @@ export const ExpandableNavBar = ({
             </Button>
             <button
               onClick={() => setMobileNavOpen((pv) => !pv)}
-              className="mt-0.5 block text-2xl text-black md:hidden"
+              className="mt-0.5 block text-2xl md:hidden"
             >
               <FiMenu />
             </button>
