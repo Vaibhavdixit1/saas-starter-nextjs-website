@@ -10,9 +10,9 @@ export const Post = ({ imgUrl, tag, title, description }: PostType) => {
       }}
     >
       <img
-        src={imgUrl}
+        src="/blog.jpg"
         className="mb-3 h-[200px] w-full rounded-md border-2 border-zinc-900 bg-zinc-300 object-cover shadow-[0px_6px_0px_rgb(24,_24,_27)] transition-all hover:translate-y-1.5 hover:shadow-[0px_0px_0px_rgb(24,_24,_27)]"
-        alt={`An image for a fake blog post titled ${title}`}
+        alt="An image for the blog"
       />
       <span className="rounded-md border border-zinc-900 bg-white px-1.5 py-1 text-xs">
         {tag}
