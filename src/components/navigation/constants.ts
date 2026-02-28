@@ -3,66 +3,32 @@ export const NAV_LINKS = [
     title: "Product",
     sublinks: [
       {
-        title: "Product 1",
+        title: "Features",
+        href: "/features",
+      },
+      {
+        title: "Integrations",
         href: "#",
       },
       {
-        title: "Product 2",
-        href: "#",
-      },
-      {
-        title: "Product 3",
-        href: "#",
-      },
-      {
-        title: "Product 4",
+        title: "Changelog",
         href: "#",
       },
     ],
   },
   {
-    title: "Solutions",
+    title: "Company",
     sublinks: [
       {
-        title: "Solutions 1",
+        title: "About Us",
+        href: "/about",
+      },
+      {
+        title: "Careers",
         href: "#",
       },
       {
-        title: "Solutions 2",
-        href: "#",
-      },
-      {
-        title: "Solutions 3",
-        href: "#",
-      },
-    ],
-  },
-  {
-    title: "Documentation",
-    sublinks: [
-      {
-        title: "Docs 1",
-        href: "#",
-      },
-      {
-        title: "Docs 2",
-        href: "#",
-      },
-    ],
-  },
-  {
-    title: "Media",
-    sublinks: [
-      {
-        title: "Media 1",
-        href: "#",
-      },
-      {
-        title: "Media 2",
-        href: "#",
-      },
-      {
-        title: "Media 3",
+        title: "Contact",
         href: "#",
       },
     ],
@@ -71,16 +37,12 @@ export const NAV_LINKS = [
     title: "Pricing",
     sublinks: [
       {
-        title: "Pricing 1",
-        href: "#",
+        title: "Plans",
+        href: "/pricing",
       },
       {
-        title: "Pricing 2",
-        href: "#",
-      },
-      {
-        title: "Pricing 3",
-        href: "#",
+        title: "Enterprise",
+        href: "/pricing",
       },
     ],
   },

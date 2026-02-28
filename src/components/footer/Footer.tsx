@@ -14,7 +14,7 @@ export const Footer = () => {
           <GenericColumn title="Product" links={NAV_LINKS[0].sublinks} />
           <GenericColumn
             title="Company"
-            links={[...NAV_LINKS[3].sublinks, ...NAV_LINKS[4].sublinks]}
+            links={[...NAV_LINKS[1].sublinks, ...NAV_LINKS[2].sublinks]}
           />
           <GenericColumn
             title="Legal"
