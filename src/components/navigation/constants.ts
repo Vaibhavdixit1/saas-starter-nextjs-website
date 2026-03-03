@@ -40,10 +40,10 @@ export const NAV_LINKS = [
         title: "Plans",
         href: "/pricing",
       },
-      {
-        title: "Enterprise",
-        href: "/pricing",
-      },
+      // {
+      //   title: "Enterprise",
+      //   href: "/pricing",
+      // },
     ],
   },
 ];
