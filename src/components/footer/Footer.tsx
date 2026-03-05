@@ -65,7 +65,7 @@ const LogoColumn = () => {
     <div className="col-span-6 md:col-span-4">
       <LogoSmall />
       <span className="mt-3 inline-block text-xs">
-        © 2023 Your Company — All rights reserved.
+        © 2024 AI SaaS — All rights reserved.
       </span>
     </div>
   );

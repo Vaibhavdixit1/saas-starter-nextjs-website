@@ -6,14 +6,6 @@ export const NAV_LINKS = [
         title: "Features",
         href: "/features",
       },
-      {
-        title: "Integrations",
-        href: "#",
-      },
-      {
-        title: "Changelog",
-        href: "#",
-      },
     ],
   },
   {
@@ -22,14 +14,6 @@ export const NAV_LINKS = [
       {
         title: "About Us",
         href: "/about",
-      },
-      {
-        title: "Careers",
-        href: "#",
-      },
-      {
-        title: "Contact",
-        href: "#",
       },
     ],
   },
@@ -40,10 +24,6 @@ export const NAV_LINKS = [
         title: "Plans",
         href: "/pricing",
       },
-      // {
-      //   title: "Enterprise",
-      //   href: "/pricing",
-      // },
     ],
   },
 ];

@@ -20,9 +20,9 @@ export const Announcement = () => {
               target="_blank"
               className="mx-auto mb-3 flex w-fit flex-col items-center justify-center gap-1 text-sm text-white hover:underline sm:flex-row"
             >
-              <span className="font-semibold">🎉 Announcement 🎉</span>
+              <span className="font-semibold">🎉 We're Live! 🎉</span>
               <span className="hidden sm:block">–</span>
-              <span> A thing is happening you should know about</span>
+              <span> Join thousands of teams already building with us</span>
             </Link>
             <button
               onClick={() => setDismissed(true)}
