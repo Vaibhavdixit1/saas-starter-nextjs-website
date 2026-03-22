@@ -11,6 +11,7 @@ import { font } from "@/fonts";
 import { BlogCarousel } from "@/components/blog/BlogCarousel";
 import { FinalCTA } from "@/components/final-cta/FinalCTA";
 import { Pricing } from "@/components/pricing/Pricing";
+import { FAQ } from "@/components/faq/FAQ";
 import { Footer } from "@/components/footer/Footer";
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
         <Supports />
         <BenefitsGrid />
         <Pricing />
+        <FAQ />
         <BlogCarousel />
       </div>
       <EmailCapture />
