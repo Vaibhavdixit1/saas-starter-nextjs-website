@@ -46,7 +46,7 @@ const duplicatedTestimonials = [...testimonials, ...testimonials];
 export const Testimonials = () => {
   return (
     <section className="relative mx-auto mt-12 max-w-7xl overflow-hidden px-2 md:px-4">
-      <SectionHeading>Loved by teams worldwide</SectionHeading>
+      <SectionHeading>Loved by developers worldwide</SectionHeading>
       <SectionSubheading>Don't just take our word for it. Here's what our users have to say.</SectionSubheading>
       
       <div className="relative mt-8 flex w-full overflow-hidden">
