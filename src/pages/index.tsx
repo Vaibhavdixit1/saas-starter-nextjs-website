@@ -22,7 +22,7 @@ export default function Home() {
         <Hero />
       </ExpandableNavBar>
       <Logos />
-      <div className="space-y-36 bg-zinc-50 pb-24 pt-24 md:pt-32">
+      <section className="space-y-36 bg-zinc-50 pb-24 pt-24 md:pt-32">
         <FeatureToggles />
         <Stats />
         <Supports />
@@ -31,7 +31,7 @@ export default function Home() {
         <Pricing />
         <FAQ />
         <BlogCarousel />
-      </div>
+      </section>
       <EmailCapture />
       <FinalCTA />
       <Footer />
