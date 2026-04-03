@@ -21,7 +21,7 @@ const faqs = [
     answer: "Yes! You save up to 20% when you pay annually rather than monthly.",
   },
   {
-    question: "Do you offer self-hosting?",
+    question: "Can I self-host the platform?",
     answer: "Self-hosting is available on our Enterprise plan. Please contact our support to initiate the process.",
   },
 ];
