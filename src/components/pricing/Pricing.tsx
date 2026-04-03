@@ -124,19 +124,20 @@ type Props = {
 const PriceColumn = ({ highlight, title, price, statement, items }: Props) => {
   return (
     <div
-      style={{
-        boxShadow: highlight ? "0px 6px 0px rgb(24, 24, 27)" : "",
-      }}
-      className={`relative w-full rounded-lg p-6 md:p-8 ${highlight ? "border-2 border-zinc-900 bg-white" : ""}`}
+      className={`relative w-full rounded-2xl p-6 md:p-8 transition-all duration-300 ${
+        highlight 
+          ? "border-2 border-zinc-900 bg-white shadow-xl scale-[1.02] z-10" 
+          : "border border-zinc-200 bg-white hover:border-zinc-300 hover:shadow-lg"
+      }`}
     >
       {highlight && (
-        <span className="absolute right-4 top-0 -translate-y-1/2 rounded-full bg-indigo-600 px-2 py-0.5 text-sm text-white">
+        <span className="absolute right-6 top-0 -translate-y-1/2 rounded-full bg-zinc-900 px-3 py-1 text-xs font-bold uppercase tracking-wider text-white">
           Most Popular
         </span>
       )}
 
-      <p className="mb-6 text-xl font-medium">{title}</p>
-      <div className="mb-6 flex items-center gap-3">
+      <p className="mb-2 text-xl font-bold text-zinc-900">{title}</p>
+      <div className="mb-6 flex items-baseline gap-1">
         <AnimatePresence mode="popLayout">
           <motion.span
             initial={{
@@ -156,20 +157,19 @@ const PriceColumn = ({ highlight, title, price, statement, items }: Props) => {
               duration: 0.25,
               ease: "easeInOut",
             }}
-            className="block text-6xl font-bold"
+            className="text-5xl font-black tracking-tight text-zinc-900"
           >
             ${price}
           </motion.span>
         </AnimatePresence>
-        <motion.div layout className="font-medium text-zinc-600">
-          <span className="block">/user</span>
-          <span className="block">/month</span>
-        </motion.div>
+        <div className="font-medium text-zinc-500">
+          <span className="text-sm">/mo</span>
+        </div>
       </div>
 
-      <p className="mb-8 text-lg">{statement}</p>
+      <p className="mb-8 text-sm text-zinc-600 leading-relaxed">{statement}</p>
 
-      <div className="mb-8 space-y-2">
+      <div className="mb-8 space-y-3">
         {items.map((i) => (
           <CheckListItem key={i.children} checked={i.checked}>
             {i.children}
@@ -177,8 +177,11 @@ const PriceColumn = ({ highlight, title, price, statement, items }: Props) => {
         ))}
       </div>
 
-      <Button className="w-full" intent={highlight ? "primary" : "secondary"}>
-        Try it now
+      <Button 
+        className="w-full py-6 text-base font-bold" 
+        intent={highlight ? "primary" : "secondary"}
+      >
+        Get Started
       </Button>
     </div>
   );
