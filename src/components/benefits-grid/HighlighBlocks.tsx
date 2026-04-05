@@ -86,7 +86,7 @@ type Props = {
 
 const HighlightBlock = ({ iconClassName, Icon, title, subtitle }: Props) => (
   <Block className="col-span-3 space-y-1.5 md:col-span-1">
-    <Icon className={twMerge("text-3xl text-indigo-600", iconClassName)} />
+    <Icon className={twMerge("text-3xl text-violet-600", iconClassName)} />
     <CardTitle>{title}</CardTitle>
     <CardSubtitle>{subtitle}</CardSubtitle>
   </Block>

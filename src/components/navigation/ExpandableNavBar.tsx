@@ -31,7 +31,7 @@ export const ExpandableNavBar = ({
 
   return (
     <>
-      <div className="bg-indigo-600 pt-2">
+      <div className="bg-violet-600 pt-2">
         <Announcement />
         <nav
           onMouseLeave={() => setHovered(null)}

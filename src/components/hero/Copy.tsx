@@ -23,7 +23,7 @@ export const Copy = () => {
         </Link>
       </div>
       <h1 className="max-w-4xl text-center text-5xl font-black leading-[1.1] tracking-tight md:text-8xl">
-        Ship software <span className="text-indigo-600 italic">faster</span> with AI
+        Ship software <span className="text-violet-600 italic">faster</span> with AI
       </h1>
       <p className="mx-auto my-6 max-w-2xl text-center text-lg leading-relaxed text-zinc-600 md:text-xl md:leading-relaxed">
         The all-in-one platform for modern engineering teams to automate tedious tasks, streamline collaboration, and deliver excellence at scale.

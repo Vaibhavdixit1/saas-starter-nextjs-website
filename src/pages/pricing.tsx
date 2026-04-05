@@ -11,7 +11,7 @@ export default function Pricing() {
   return (
     <main className={`${font.className} overflow-hidden`}>
       <Head>
-        <title>Pricing | AI SaaS Starter</title>
+        <title>Pricing | AI Orbit</title>
         <meta name="description" content="Simple, transparent pricing for teams of all sizes." />
       </Head>
       <ExpandableNavBar links={NAV_LINKS}>

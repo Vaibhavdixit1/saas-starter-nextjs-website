@@ -48,7 +48,7 @@ const Testimonial = ({
             }}
             src={imgSrc}
             alt="avatar"
-            className="size-24 rounded-lg border-2 border-zinc-900 bg-indigo-200"
+            className="size-24 rounded-lg border-2 border-zinc-900 bg-violet-200"
           />
         </div>
         <motion.div
@@ -67,7 +67,7 @@ const Testimonial = ({
         >
           <span className="mb-1.5 block text-3xl font-medium">{name}</span>
           <span className="text-zinc-600">
-            {title} – <span className="text-indigo-600">{company}</span>
+            {title} – <span className="text-violet-600">{company}</span>
           </span>
         </motion.div>
       </div>

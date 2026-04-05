@@ -77,7 +77,7 @@ const TranslateWrapper = ({
 const LogoItem = ({ Icon, name }: { Icon: IconType; name: string }) => {
   return (
     <span className="flex items-center justify-center gap-4 px-4 py-2 md:py-4">
-      <Icon className="text-2xl text-indigo-600 md:text-3xl" />
+      <Icon className="text-2xl text-violet-600 md:text-3xl" />
       <span className="whitespace-nowrap text-xl font-semibold uppercase md:text-2xl">
         {name}
       </span>

@@ -38,7 +38,7 @@ export const DesktopLinks = ({
           >
             {activeSublinks.map((l) => (
               <a
-                className="block text-2xl font-semibold text-zinc-950 transition-colors hover:text-indigo-600"
+                className="block text-2xl font-semibold text-zinc-950 transition-colors hover:text-violet-600"
                 href={l.href}
                 key={l.title}
               >

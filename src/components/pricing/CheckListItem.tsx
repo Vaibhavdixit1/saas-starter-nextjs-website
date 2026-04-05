@@ -10,7 +10,7 @@ export const CheckListItem = ({ children, checked }: CheckListItemType) => {
   return (
     <div className="flex items-center gap-2 text-lg">
       {checked ? (
-        <FiCheckCircle className="text-xl text-indigo-600" />
+        <FiCheckCircle className="text-xl text-violet-600" />
       ) : (
         <FiXSquare className="text-xl text-zinc-400" />
       )}

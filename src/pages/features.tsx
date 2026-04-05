@@ -11,7 +11,7 @@ export default function Features() {
     return (
         <main className={`${font.className} overflow-hidden`}>
             <Head>
-                <title>Features | AI SaaS Starter</title>
+                <title>Features | AI Orbit</title>
                 <meta name="description" content="Discover powerful features that help your team work smarter, not harder." />
             </Head>
             <ExpandableNavBar links={NAV_LINKS}>

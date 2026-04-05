@@ -27,7 +27,7 @@ export const MockupScreen = () => {
         <div className="h-full border-r border-zinc-300 p-2">
           <LogoSmall />
           <div className="mt-3 space-y-1.5">
-            <span className="flex items-center gap-1.5 text-xs text-indigo-600">
+            <span className="flex items-center gap-1.5 text-xs text-violet-600">
               <FiMessageCircle />
               <span>Messages</span>
             </span>
@@ -48,7 +48,7 @@ export const MockupScreen = () => {
               Search...
             </span>
             <div className="flex items-center gap-1.5 text-xl">
-              <FiBell className="text-indigo-600" />
+              <FiBell className="text-violet-600" />
               <FiUser />
             </div>
           </div>

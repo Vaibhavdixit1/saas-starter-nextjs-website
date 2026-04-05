@@ -28,7 +28,7 @@ const IssuesComponent = () => {
         <img
           src="https://api.dicebear.com/8.x/notionists/svg"
           alt="avatar"
-          className="ml-1.5 size-8 rounded bg-indigo-200 shadow-inner"
+          className="ml-1.5 size-8 rounded bg-violet-200 shadow-inner"
         />
         <div>
           <span className="block text-sm font-medium">Andrea Smith</span>
@@ -100,11 +100,11 @@ const BGTask = () => {
 
 const OverlayTask = () => {
   return (
-    <div className="absolute left-1/2 top-1/2 z-10 w-64 -translate-x-1/2 -translate-y-1/2 rotate-3 rounded-lg border-2 border-indigo-600 bg-white p-4 shadow-xl shadow-indigo-600/20">
+    <div className="absolute left-1/2 top-1/2 z-10 w-64 -translate-x-1/2 -translate-y-1/2 rotate-3 rounded-lg border-2 border-violet-600 bg-white p-4 shadow-xl shadow-violet-600/20">
       <div className="mb-2 flex items-center gap-1.5 text-xs">
         <span className="text-zinc-600">Design Team</span>
         <FiChevronRight />
-        <div className="flex items-center gap-1 rounded bg-indigo-100 px-1.5 py-0.5 text-indigo-900">
+        <div className="flex items-center gap-1 rounded bg-violet-100 px-1.5 py-0.5 text-violet-900">
           <FiAnchor />
           <span>Features</span>
         </div>
@@ -158,8 +158,8 @@ const GanttComponent = () => {
         </div>
       </div>
 
-      <div className="absolute bottom-0 left-1/3 top-0 w-0.5 bg-indigo-600">
-        <span className="absolute left-0 top-0 -translate-x-1/2 rounded-b bg-indigo-500 px-1.5 pb-0.5 text-xs font-medium text-white">
+      <div className="absolute bottom-0 left-1/3 top-0 w-0.5 bg-violet-600">
+        <span className="absolute left-0 top-0 -translate-x-1/2 rounded-b bg-violet-500 px-1.5 pb-0.5 text-xs font-medium text-white">
           Now
         </span>
       </div>

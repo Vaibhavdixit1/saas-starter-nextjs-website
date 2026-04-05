@@ -12,7 +12,7 @@ export default function About() {
     return (
         <main className={`${font.className} overflow-hidden`}>
             <Head>
-                <title>About Us | AI SaaS Starter</title>
+                <title>About Us | AI Orbit</title>
                 <meta name="description" content="Learn more about our mission, our team, and our story." />
             </Head>
             <ExpandableNavBar links={NAV_LINKS}>

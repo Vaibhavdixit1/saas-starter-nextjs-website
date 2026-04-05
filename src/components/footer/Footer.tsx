@@ -18,7 +18,7 @@ export const Footer = () => {
                 <input 
                   type="email" 
                   placeholder="name@email.com" 
-                  className="w-full rounded-lg border border-zinc-200 bg-zinc-50 px-3 py-2 text-sm outline-none focus:border-indigo-500 focus:ring-1 focus:ring-indigo-500 transition-all"
+                  className="w-full rounded-lg border border-zinc-200 bg-zinc-50 px-3 py-2 text-sm outline-none focus:border-violet-500 focus:ring-1 focus:ring-violet-500 transition-all"
                 />
                 <button className="rounded-lg bg-zinc-900 px-4 py-2 text-sm font-bold text-white hover:bg-zinc-800 transition-colors">
                   Join
@@ -88,9 +88,9 @@ const GenericColumn = ({
           <Link
             key={l.title}
             href={l.href}
-            className="group flex items-center gap-2 text-sm text-zinc-500 transition-colors hover:text-indigo-600"
+            className="group flex items-center gap-2 text-sm text-zinc-500 transition-colors hover:text-violet-600"
           >
-            {l.Icon && <l.Icon className="text-zinc-400 group-hover:text-indigo-600 transition-colors" />}
+            {l.Icon && <l.Icon className="text-zinc-400 group-hover:text-violet-600 transition-colors" />}
             {l.title}
           </Link>
         ))}

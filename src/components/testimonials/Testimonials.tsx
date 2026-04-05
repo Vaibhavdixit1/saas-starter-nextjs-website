@@ -139,7 +139,7 @@ const TestimonialCard = ({ testimonial }: { testimonial: typeof testimonialsRow1
     >
       <p className="text-zinc-600 font-medium leading-relaxed italic">"{testimonial.content}"</p>
       <div className="flex items-center gap-3">
-        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-indigo-50 text-sm font-bold text-indigo-600 border border-indigo-100">
+        <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-violet-50 text-sm font-bold text-violet-600 border border-violet-100">
           {testimonial.initials}
         </div>
         <div>
