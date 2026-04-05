@@ -36,10 +36,10 @@ const IssuesComponent = () => {
         </div>
       </div>
       <div className="mb-1 line-clamp-1 text-xl font-medium">
-        Bot crawlers causing latency issues
+        Improve core web vitals for product pages
       </div>
       <span className="line-clamp-3 text-sm leading-relaxed text-zinc-600">
-        Describe the bug or issue details here. Replace this with real content.
+        LCP is currently at 3.2s. We need to optimize image delivery and reduce the main thread work to get this under 2.5s.
       </span>
       <div className="absolute bottom-0 left-0 right-0 flex items-center gap-1.5 bg-white/50 p-4 backdrop-blur">
         <span className="flex w-fit items-center gap-1 rounded bg-yellow-100 px-1.5 py-0.5 text-sm text-yellow-900">
@@ -193,7 +193,7 @@ const DocumentationComponent = () => {
         </span>
       </div>
       <span className="relative mb-1.5 inline-block text-lg font-medium">
-        AWS Migration Technical Proposal
+        Project Phoenix Launch Strategy
         <span className="inline-block scale-150 animate-pulse text-green-600">
           |
         </span>
@@ -201,7 +201,7 @@ const DocumentationComponent = () => {
       </span>
       <br />
       <span className="relative text-xs text-zinc-600 sm:text-sm">
-        Document content goes here. Add real content to describe your feature or proposal.{" "}
+        This document outlines the phased roll out for our new AI-powered analytics engine. We'll start with a closed beta for our Enterprise customers on May 1st.{" "}
         <span className="inline-block scale-150 animate-pulse text-blue-600">
           |
         </span>
@@ -216,32 +216,32 @@ export const data = [
     id: 1,
     title: "Issues",
     Component: IssuesComponent,
-    cardTitle: "Title for Issues feature",
+    cardTitle: "Track everything with ease",
     cardSubtitle:
-      "Explain what the Issues feature does and why it's different or better than your competitors.",
+      "From simple tasks to complex bugs, our integrated issue tracker keeps your team focused and organized.",
   },
   {
     id: 2,
     title: "Kanban",
     Component: KanbanComponent,
-    cardTitle: "Title for Kanban feature",
+    cardTitle: "Visualize your workflow",
     cardSubtitle:
-      "Explain what the Kanban feature does and why it's different or better than your competitors.",
+      "Move tasks through your custom pipeline and identify bottlenecks before they slow you down.",
   },
   {
     id: 3,
     title: "Gantt",
     Component: GanttComponent,
-    cardTitle: "Title for Gantt feature",
+    cardTitle: "Master your timeline",
     cardSubtitle:
-      "Explain what the Gantt feature and why it's different or better than your competitors.",
+      "Plan large-scale projects with interactive Gantt charts that update in real-time as your team ships.",
   },
   {
     id: 4,
     title: "Documentation",
     Component: DocumentationComponent,
-    cardTitle: "Title for Documentation feature",
+    cardTitle: "Centralize your knowledge",
     cardSubtitle:
-      "Explain what the Documentation feature and why it's different or better than your competitors.",
+      "Keep requirements, technical specs, and team processes in one place with a powerful collaborative editor.",
   },
 ];
