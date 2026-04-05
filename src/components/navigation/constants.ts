@@ -15,6 +15,10 @@ export const NAV_LINKS = [
         title: "About Us",
         href: "/about",
       },
+      {
+        title: "Contact Us",
+        href: "/contact",
+      },
     ],
   },
   {
