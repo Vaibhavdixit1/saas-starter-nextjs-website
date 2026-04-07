@@ -14,7 +14,7 @@ export default function Contact() {
             <ExpandableNavBar links={NAV_LINKS}>
                 <section className="relative flex flex-col items-center justify-center px-12 pb-24 pt-12 md:pb-32 md:pt-24">
                     <h1 className="max-w-4xl text-center text-4xl font-black leading-[1.15] md:text-7xl md:leading-[1.15]">
-                        Talk to our team
+                        Get in touch with us
                     </h1>
                     <p className="mx-auto my-4 max-w-2xl text-center text-base leading-relaxed md:my-6 md:text-xl md:leading-relaxed text-zinc-600">
                         Whether you have questions about our product, pricing, or enterprise solutions, we&apos;re here to help you ship faster.
