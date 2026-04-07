@@ -78,5 +78,9 @@ Font settings are globally managed. You can configure the primary fonts by modif
 - `npm run start` - Starts the production server.
 - `npm run lint` - Runs ESLint to catch and fix issues.
 
+## ⚖️ License
+
+This project is licensed under the MIT License.
+
 ---
 *Built to help developers and founders launch products quickly with a premium user experience.*
