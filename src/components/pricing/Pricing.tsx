@@ -13,97 +13,95 @@ export const Pricing = () => {
       <Toggle selected={selected} setSelected={setSelected} />
       <div className="mt-6 grid grid-cols-1 gap-6 lg:mt-12 lg:grid-cols-3 lg:gap-8">
         <PriceColumn
-          title="Individuals"
+          title="Starter"
           price="0"
-          statement="For individuals looking to up their productivity gains. Free forever."
+          statement="Perfect for side projects and hobbyists just getting started."
           items={[
             {
-              children: "1 Team Member",
+              children: "5 Projects",
               checked: true,
             },
             {
-              children: "3 Boards",
+              children: "Basic Analytics",
               checked: true,
             },
             {
-              children: "5 Workflows",
+              children: "Community Support",
               checked: true,
             },
             {
-              children: "Upgraded Support",
+              children: "Custom Domains",
               checked: false,
             },
             {
-              children: "Custom Branding",
+              children: "Priority Support",
               checked: false,
             },
             {
-              children: "Self Host",
+              children: "Team Collaboration",
               checked: false,
             },
           ]}
         />
         <PriceColumn
-          title="Teams"
-          price={selected === "monthly" ? "12" : "8"}
-          statement="For teams looking to scale their team efficiently. Stay on track."
+          title="Professional"
+          price={selected === "monthly" ? "29" : "19"}
+          statement="Everything you need to grow your business and scale your team."
           highlight
           items={[
             {
-              children: "∞ Team Members",
+              children: "Unlimited Projects",
               checked: true,
             },
             {
-              children: "∞ Boards",
+              children: "Advanced Analytics",
               checked: true,
             },
             {
-              children: "∞ Workflows",
-              checked: true,
-            },
-
-            {
-              children: "Upgraded Support",
+              children: "Priority Email Support",
               checked: true,
             },
             {
-              children: "Custom Branding",
-              checked: false,
+              children: "Custom Domains",
+              checked: true,
             },
             {
-              children: "Self Host",
+              children: "Team Collaboration",
+              checked: true,
+            },
+            {
+              children: "API Access",
               checked: false,
             },
           ]}
         />
         <PriceColumn
-          title="Enterprise"
-          price={selected === "monthly" ? "24" : "16"}
-          statement="For enterprises looking to see new heights. Manage without the stress"
+          title="Expert"
+          price={selected === "monthly" ? "99" : "79"}
+          statement="Tailored solutions for large-scale operations and high-traffic sites."
           items={[
             {
-              children: "∞ Team Members",
+              children: "Everything in Professional",
               checked: true,
             },
             {
-              children: "∞ Boards",
+              children: "Dedicated Account Manager",
               checked: true,
             },
             {
-              children: "∞ Workflows",
-              checked: true,
-            },
-
-            {
-              children: "Enterprise Support",
+              children: "24/7 Phone Support",
               checked: true,
             },
             {
-              children: "Custom Branding",
+              children: "API Access & Webhooks",
               checked: true,
             },
             {
-              children: "Self Host",
+              children: "SLA Guarantees",
+              checked: true,
+            },
+            {
+              children: "Custom Contracts",
               checked: true,
             },
           ]}

@@ -9,7 +9,7 @@ export const NAV_LINKS = [
     ],
   },
   {
-    title: "Our Company",
+    title: "Resources",
     sublinks: [
       {
         title: "About Us",
