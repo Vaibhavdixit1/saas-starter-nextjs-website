@@ -4,10 +4,10 @@ import { SectionSubheading } from "../shared/SectionSubheading";
 
 const testimonialsRow1 = [
   {
-    name: "Alex Rivera",
-    role: "Founder at StartupX",
-    content: "This tool completely revolutionized the way our team works. We shipped our product twice as fast.",
-    initials: "AR"
+    name: "Sarah Jenkins",
+    role: "Founder at Pixel Perfect",
+    content: "Antigravity has completely transformed our workflow. We're launching features in half the time it used to take.",
+    initials: "SJ"
   },
   {
     name: "Samantha Lee",
@@ -16,10 +16,10 @@ const testimonialsRow1 = [
     initials: "SL"
   },
   {
-    name: "David Chen",
-    role: "Lead Engineer",
-    content: "I was skeptical at first, but the integration was seamless. It's now a core part of our tech stack.",
-    initials: "DC"
+    name: "Michael Ross",
+    role: "Senior Full Stack Dev",
+    content: "The most intuitive platform I've ever used. The documentation and community support are top-notch.",
+    initials: "MR"
   },
   {
     name: "Emily Watson",
@@ -43,10 +43,10 @@ const testimonialsRow1 = [
 
 const testimonialsRow2 = [
     {
-      name: "Jordan Smith",
-      role: "CTO at Nexus",
-      content: "Scaling our infrastructure was a nightmare before we found this. Now, it's just a click away.",
-      initials: "JS"
+      name: "Jessica Wu",
+      role: "CTO at CloudBase",
+      content: "We scaled from 1,000 to 1,000,000 users without breaking a sweat, thanks to their robust infrastructure.",
+      initials: "JW"
     },
     {
       name: "Taylor Reed",
