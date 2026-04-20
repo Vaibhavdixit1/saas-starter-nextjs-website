@@ -6,13 +6,13 @@ const testimonialsRow1 = [
   {
     name: "Sarah Jenkins",
     role: "Founder at Pixel Perfect",
-    content: "Antigravity has completely transformed our workflow. We're launching features in half the time it used to take.",
+    content: "Antigravity is the boilerplate I've been waiting for. It saved me at least 40 hours of setup time on my last project.",
     initials: "SJ"
   },
   {
     name: "Samantha Lee",
     role: "Marketing Director",
-    content: "The analytics provided are top-notch. I can easily see how our campaigns are performing in real-time.",
+    content: "The clean architecture and pre-built components are a game changer. Shipping my SaaS is actually fun now.",
     initials: "SL"
   },
   {

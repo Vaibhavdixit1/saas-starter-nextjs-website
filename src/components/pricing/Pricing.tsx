@@ -15,7 +15,7 @@ export const Pricing = () => {
         <PriceColumn
           title="Starter"
           price="0"
-          statement="Perfect for side projects and hobbyists just getting started."
+          statement="Everything you need to learn the ropes and start building your first app."
           items={[
             {
               children: "5 Projects",
@@ -46,7 +46,7 @@ export const Pricing = () => {
         <PriceColumn
           title="Professional"
           price={selected === "monthly" ? "29" : "19"}
-          statement="Everything you need to grow your business and scale your team."
+          statement="The perfect choice for growing startups and professional developers."
           highlight
           items={[
             {
@@ -78,7 +78,7 @@ export const Pricing = () => {
         <PriceColumn
           title="Expert"
           price={selected === "monthly" ? "99" : "79"}
-          statement="Tailored solutions for large-scale operations and high-traffic sites."
+          statement="Advanced tools and priority support for high-scale enterprise operations."
           items={[
             {
               children: "Everything in Professional",
