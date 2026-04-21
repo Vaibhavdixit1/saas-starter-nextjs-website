@@ -70,17 +70,3 @@ The template currently uses the Tailwind `indigo` palette for primary actions an
 
 ### Typography
 Font settings are globally managed. You can configure the primary fonts by modifying `src/fonts.ts` using [next/font](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize your local or Google fonts.
-
-## 📜 Scripts
-
-- `npm run dev` - Starts the development server.
-- `npm run build` - Builds the application for production.
-- `npm run start` - Starts the production server.
-- `npm run lint` - Runs ESLint to catch and fix issues.
-
-## ⚖️ License
-
-This project is licensed under the MIT License.
-
----
-*Built to help developers and founders launch products quickly with a premium user experience.*
