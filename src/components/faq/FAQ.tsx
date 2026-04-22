@@ -6,23 +6,23 @@ import { FiChevronDown } from "react-icons/fi";
 const faqs = [
   {
     question: "How does the free tier work?",
-    answer: "Our free tier is designed for individuals and gives you access to 1 team member, 3 boards, and 5 workflows forever.",
+    answer: "The free tier is ideal for solo builders and includes enough projects and core features to launch and validate quickly.",
   },
   {
     question: "Can I switch plans later?",
-    answer: "Absolutely! You can upgrade or downgrade your plan at any time through your dashboard settings. Prorated charges will apply.",
+    answer: "Yes. You can upgrade or downgrade anytime from billing settings, and your subscription updates immediately.",
   },
   {
     question: "Do you offer custom enterprise pricing?",
-    answer: "Yes, we do. If your team exceeds the self-serve plan limits, please reach out to our sales team for a custom quote.",
+    answer: "Yes. If your team needs advanced security, custom limits, or procurement support, contact sales for a tailored plan.",
   },
   {
     question: "Is there a discount for annual billing?",
-    answer: "Yes! You save up to 20% when you pay annually rather than monthly.",
+    answer: "Yes, annual billing includes a discount compared with monthly pricing.",
   },
   {
     question: "Can I self-host the platform?",
-    answer: "Self-hosting is available on our Enterprise plan. Please contact our support to initiate the process.",
+    answer: "Self-hosting is available on enterprise plans. Reach out to our team to discuss setup and requirements.",
   },
 ];
 
