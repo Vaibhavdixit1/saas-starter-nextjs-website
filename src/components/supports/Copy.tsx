@@ -18,10 +18,9 @@ export const Copy = ({
         Support your business, big or small
       </h2>
       <p className="mb-6 text-center text-base leading-relaxed md:text-start md:text-lg md:leading-relaxed">
-        Now we know WHAT you do, but who do you do it for? Why do they use it?
-        What problems does is solve for them? You can use a section like this
-        one to explain how people in the real world are deriving value out of
-        your product or service.
+        Different teams need different workflows. Use this section to highlight
+        the specific outcomes each customer segment gets from your product and
+        make your value clear at a glance.
       </p>
       <div className="mb-6 flex flex-wrap justify-center gap-3 md:justify-start">
         {OPTIONS.map((o, i) => {

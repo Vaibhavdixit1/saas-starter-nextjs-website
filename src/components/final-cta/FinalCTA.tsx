@@ -10,11 +10,11 @@ export const FinalCTA = () => {
         <LogoLarge />
         <SectionHeading>Ready to go?</SectionHeading>
         <p className="mx-auto mb-8 text-center text-base leading-relaxed md:text-xl md:leading-relaxed">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe,
-          blanditiis?
+          Start with a production-ready Next.js foundation and ship your next
+          product faster with fewer setup headaches.
         </p>
         <Button intent="primary">
-          <span className="font-bold">Get started - </span> no CC required
+          <span className="font-bold">Get started - </span> no credit card required
         </Button>
       </div>
     </section>
