@@ -17,23 +17,24 @@ export const Copy = () => {
             New
           </span>
           <span className="text-zinc-600">
-            Over 10,000+ developers trust Antigravity
+            Trusted by 10,000+ developers and founders
           </span>
           <FiArrowUpRight className="text-zinc-400 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
         </Link>
       </div>
       <h1 className="max-w-4xl text-center text-5xl font-black leading-[1.1] tracking-tight md:text-8xl">
-        Launch your next <span className="text-violet-600 italic">SaaS</span> with Antigravity
+        Launch your next <span className="text-violet-600 italic">SaaS</span> in days, not months
       </h1>
       <p className="mx-auto my-6 max-w-2xl text-center text-lg leading-relaxed text-zinc-600 md:text-xl md:leading-relaxed">
-        The ultimate Next.js starter kit for developers who want to ship faster. Everything you need to go from idea to production in a weekend.
+        A modern Next.js starter built to help you ship faster with polished UI,
+        scalable foundations, and production-ready defaults.
       </p>
       <div className="flex flex-col sm:flex-row items-center gap-4">
         <Button className="h-14 px-8 text-lg font-bold">
           Start for free
         </Button>
         <p className="text-xs font-semibold text-zinc-400 uppercase tracking-widest italic">
-          No credit card required
+          Start building right away
         </p>
       </div>
     </>
