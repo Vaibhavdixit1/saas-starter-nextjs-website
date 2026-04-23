@@ -5,38 +5,38 @@ import { SectionSubheading } from "../shared/SectionSubheading";
 const testimonialsRow1 = [
   {
     name: "Sarah Jenkins",
-    role: "Founder at Pixel Perfect",
-    content: "Antigravity is the boilerplate I've been waiting for. It saved me at least 40 hours of setup time on my last project.",
+    role: "CEO at Pixel Perfect",
+    content: "This is the boilerplate I've been waiting for. It saved us months of engineering time and let us focus on our core product.",
     initials: "SJ"
   },
   {
     name: "Samantha Lee",
-    role: "Marketing Director",
-    content: "The clean architecture and pre-built components are a game changer. Shipping my SaaS is actually fun now.",
+    role: "VP of Engineering",
+    content: "The clean architecture and pre-built components are a game changer. We reached production in record time.",
     initials: "SL"
   },
   {
     name: "Michael Ross",
-    role: "Senior Full Stack Dev",
-    content: "The most intuitive platform I've ever used. The documentation and community support are top-notch.",
+    role: "Senior Architect",
+    content: "Deeply impressed by the codebase quality. It's rare to find a starter that actually follows best practices.",
     initials: "MR"
   },
   {
     name: "Emily Watson",
-    role: "Freelance Designer",
-    content: "Beautiful, clean, and intuitive. It's exactly what I needed to manage my client projects efficiently.",
+    role: "Lead Product Designer",
+    content: "The design system is incredible. It's modern, accessible, and incredibly easy to customize for our brand.",
     initials: "EW"
   },
   {
     name: "Marcus Johnson",
-    role: "Product Manager",
-    content: "We've tried dozens of alternatives, but none match the simplicity and power of this platform.",
+    role: "Technical Co-founder",
+    content: "We've tried dozens of starters, but this is the first one that felt truly enterprise-ready from day one.",
     initials: "MJ"
   },
   {
     name: "Sarah Patel",
-    role: "Customer Success",
-    content: "Our support tickets have decreased by 40% since we started using this. Our customers love the self-serve options.",
+    role: "Head of Growth",
+    content: "Our team's velocity has doubled since we switched. The developer experience is simply unmatched.",
     initials: "SP"
   }
 ];
@@ -45,37 +45,37 @@ const testimonialsRow2 = [
     {
       name: "Jessica Wu",
       role: "CTO at CloudBase",
-      content: "We scaled from 1,000 to 1,000,000 users without breaking a sweat, thanks to their robust infrastructure.",
+      content: "Scaling from 10k to 1M users was seamless. The underlying infra is rock solid and incredibly performant.",
       initials: "JW"
     },
     {
       name: "Taylor Reed",
-      role: "UX Researcher",
-      content: "The user insights we've gathered are invaluable. It has completely changed our product roadmap.",
+      role: "Platform Engineer",
+      content: "The CI/CD integration and deployment workflows are flawless. It just works, every single time.",
       initials: "TR"
     },
     {
       name: "Morgan Vance",
-      role: "Agency Owner",
-      content: "Managing multiple clients has never been easier. The dashboard is a lifesaver.",
+      role: "Director of Product",
+      content: "It's the perfect balance of flexibility and built-in power. Our engineers love working with it.",
       initials: "MV"
     },
     {
       name: "Casey Bloom",
-      role: "Open Source Contributor",
-      content: "I love the community and the extensibility. It's a developer's dream come true.",
+      role: "Full Stack Developer",
+      content: "I've never seen a starter with this much attention to detail. Every edge case is already handled.",
       initials: "CB"
     },
     {
       name: "Riley Cooper",
-      role: "Sales Operations",
-      content: "Our conversion rates have spiked since implementing their checkout flow. Highly recommended.",
+      role: "SaaS Consultant",
+      content: "I recommend this to all my clients. It's the fastest way to get a high-quality product to market.",
       initials: "RC"
     },
     {
       name: "Jamie Lane",
-      role: "Creative Lead",
-      content: "The aesthetic appeal is what sold us, but the performance is what keeps us here.",
+      role: "Startup Founder",
+      content: "The best investment we made early on. It gave us the professional edge we needed to close our seed round.",
       initials: "JL"
     }
 ];
