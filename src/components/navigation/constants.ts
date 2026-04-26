@@ -1,22 +1,26 @@
 export const NAV_LINKS = [
   {
-    title: "Product",
+    title: "Platform",
     sublinks: [
       {
-        title: "Features",
+        title: "The OS",
         href: "/features",
+      },
+      {
+        title: "Integrations",
+        href: "/integrations",
       },
     ],
   },
   {
-    title: "Resources",
+    title: "Company",
     sublinks: [
       {
-        title: "About Us",
+        title: "Philosophy",
         href: "/about",
       },
       {
-        title: "Contact Us",
+        title: "Contact",
         href: "/contact",
       },
     ],
@@ -25,7 +29,7 @@ export const NAV_LINKS = [
     title: "Pricing",
     sublinks: [
       {
-        title: "Plans",
+        title: "Our Plans",
         href: "/pricing",
       },
     ],
