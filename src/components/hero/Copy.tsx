@@ -23,11 +23,11 @@ export const Copy = () => {
         </Link>
       </div>
       <h1 className="max-w-4xl text-center text-5xl font-black leading-[1.1] tracking-tight md:text-8xl">
-        Ship your next <span className="text-violet-600 italic">Big Idea</span> in days
+        Clarity in every <span className="text-violet-600 italic">Dollop</span> of work
       </h1>
       <p className="mx-auto my-6 max-w-2xl text-center text-lg leading-relaxed text-zinc-600 md:text-xl md:leading-relaxed">
-        The ultimate production-ready foundation for modern SaaS. 
-        Engineered for speed, scalability, and an unparalleled developer experience.
+        The definitive operating system for high-velocity teams. 
+        Engineered for precision, built for focus, and designed to disappear into your workflow.
       </p>
       <div className="flex flex-col sm:flex-row items-center gap-4">
         <Button className="h-14 px-8 text-lg font-bold">
