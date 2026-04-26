@@ -5,9 +5,9 @@ export const Stats = () => {
   return (
     <section className="mx-auto max-w-5xl px-4">
       <div className="flex flex-col items-center justify-center gap-12 sm:flex-row sm:gap-0">
-        <Stat num={45} suffix="K+" subheading="Developers building today" />
-        <Stat num={99} suffix=".99%" subheading="Uptime SLA on deployments" />
-        <Stat num={1200} suffix="+" subheading="Enterprises shipping weekly" />
+        <Stat num={45} suffix="%" subheading="Reduction in context switching" />
+        <Stat num={99} suffix=".9%" subheading="Focus-time preservation" />
+        <Stat num={1200} suffix="+" subheading="Elite teams shipping weekly" />
       </div>
     </section>
   );
