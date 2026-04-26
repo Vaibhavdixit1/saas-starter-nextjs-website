@@ -18,10 +18,9 @@ export const BenefitsGrid = () => {
       className="relative mx-auto grid max-w-6xl grid-cols-3 gap-4 px-2 md:px-4"
     >
       <div className="col-span-3">
-        <SectionHeading>The clear benefits of X</SectionHeading>
+        <SectionHeading>The Architecture of Focus</SectionHeading>
         <SectionSubheading>
-          Features are good, benefits are even better! Here's a made up list for
-          reference.
+          Engineered for collective intelligence. Designed for individual flow.
         </SectionSubheading>
       </div>
       <IntegrationsBlock />

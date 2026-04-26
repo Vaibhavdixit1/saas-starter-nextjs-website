@@ -13,9 +13,9 @@ export const Pricing = () => {
       <Toggle selected={selected} setSelected={setSelected} />
       <div className="mt-6 grid grid-cols-1 gap-6 lg:mt-12 lg:grid-cols-3 lg:gap-8">
         <PriceColumn
-          title="Starter"
+          title="Founders"
           price="0"
-          statement="Everything you need to validate your idea and build your first MVP."
+          statement="For the independent visionary and those in the earliest stages of architectural discovery."
           items={[
             {
               children: "5 Projects",
@@ -44,9 +44,9 @@ export const Pricing = () => {
           ]}
         />
         <PriceColumn
-          title="Professional"
+          title="Studio"
           price={selected === "monthly" ? "29" : "19"}
-          statement="The perfect choice for scaling startups and serious independent builders."
+          statement="The standard for high-performance teams. Deep integration for collective flow."
           highlight
           items={[
             {
@@ -76,9 +76,9 @@ export const Pricing = () => {
           ]}
         />
         <PriceColumn
-          title="Enterprise"
+          title="Sovereign"
           price={selected === "monthly" ? "99" : "79"}
-          statement="Advanced tools and dedicated support for high-stakes enterprise operations."
+          statement="Absolute control and dedicated infrastructure for high-stakes global operations."
           items={[
             {
               children: "Everything in Professional",
