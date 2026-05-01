@@ -2,7 +2,7 @@
 
 A modern, high-performance SaaS landing page starter built to help you launch your product faster. This template is designed with conversion in mind and comes packed with fully responsive, animated UI components.
 
-## 🚀 Features
+## Features
 
 - **Pre-built Landing Page Sections**: Includes Hero, Feature Toggles, Pricing, Stats, Benefits Grid, Blog Carousel, and Email Capture.
 - **Beautiful Animations**: Smooth page transitions and element animations powered by Framer Motion.
@@ -10,7 +10,7 @@ A modern, high-performance SaaS landing page starter built to help you launch yo
 - **Modern Tech Stack**: Uses Next.js (App/Pages router), React 18, and TypeScript for a robust developer experience.
 - **Customizable Theme**: Easily adapt the color scheme and typography to match your brand identity.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org/) (v14)
 - **Library**: [React](https://reactjs.org/) (v18)
@@ -20,7 +20,7 @@ A modern, high-performance SaaS landing page starter built to help you launch yo
 - **Utilities**: `class-variance-authority`, `tailwind-merge`, `react-use-measure`
 - **Language**: TypeScript
 
-## 📂 Project Structure
+## Project Structure
 
 The project is organized efficiently to separate concerns and make customization easy:
 
@@ -48,7 +48,7 @@ src/
 └── fonts.ts             # Font configurations
 ```
 
-## 💻 Getting Started
+## Getting Started
 
 1. **Install dependencies:**
    ```bash
@@ -63,7 +63,7 @@ src/
 3. **View the app:**
    Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-## 🎨 Customization
+## Customization
 
 ### Colors
 The template currently uses the Tailwind `indigo` palette for primary actions and `zinc` for neutral backgrounds. To seamlessly switch to your brand's primary color, you can selectively find-and-replace `indigo` in the component files with your preferred Tailwind color (e.g., `blue`, `emerald`, `violet`).
